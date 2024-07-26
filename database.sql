@@ -5,7 +5,7 @@ CREATE DATABASE AdminClientesDB;
 USE AdminClientesDB;
 
 -- Creación de la tabla 'clientes'
-CREATE TABLE clientes (
+CREATE TABLE cliente (
     id INT AUTO_INCREMENT PRIMARY KEY, -- Identificador único de cliente
     nombre VARCHAR(50) NOT NULL, -- Nombre del cliente
     email VARCHAR(50) NOT NULL UNIQUE, -- Correo electrónico del cliente (debe ser único)
@@ -14,9 +14,9 @@ CREATE TABLE clientes (
 );
 
 -- Creación del índice para la columna 'nombre'
-CREATE INDEX idx_nombre ON clientes(nombre);
+CREATE INDEX idx_nombre ON cliente(nombre);
 
 -- Inserción de datos en la tabla 'clientes'
-INSERT INTO clientes (nombre, email, telefono) VALUES 
+INSERT INTO cliente (nombre, email, telefono) VALUES 
 ('Juan Perez', 'juan.perez@example.com', '123456789'),
 ('Maria Gomez', 'maria.gomez@example.com', '987654321');
