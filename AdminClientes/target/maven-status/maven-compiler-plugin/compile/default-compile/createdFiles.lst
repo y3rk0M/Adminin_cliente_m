@@ -1,0 +1,11 @@
+com\mycompany\adminclientes\service\ClienteService.class
+com\mycompany\adminclientes\config\SwaggerConfig.class
+com\mycompany\adminclientes\service\TimeService.class
+com\mycompany\adminclientes\AdminClientes.class
+com\mycompany\adminclientes\controller\HomeController.class
+com\mycompany\adminclientes\exception\ResourceNotFoundException.class
+com\mycompany\adminclientes\controller\ClienteWebController.class
+com\mycompany\adminclientes\repository\ClienteRepository.class
+com\mycompany\adminclientes\controller\ClienteController.class
+com\mycompany\adminclientes\controller\GlobalExceptionHandler.class
+com\mycompany\adminclientes\model\Cliente.class

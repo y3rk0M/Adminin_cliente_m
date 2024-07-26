@@ -1,0 +1,7 @@
+<h2>Lista de Clientes</h2>
+<button (click)="logout()">Cerrar sesión</button>
+<ul>
+  <li *ngFor="let client of clients">
+    {{ client.name }} (ID: {{ client.id }})
+  </li>
+</ul>
